@@ -1,0 +1,13 @@
+/* custom-styles.css */
+
+/* Remove the dot and customize button appearance */
+.dropdown-toggle::after {
+    display: none !important;
+  }
+  /* Customize button appearance */
+  .dropdown-toggle  {
+    background-color: hsl(320, 66%, 27%); /* Set your desired background color */
+    color: white !important; /* Set the font color */
+    border: none !important; /* Remove border */
+  }
+  
